@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Pomodoro-app",
+    "name": "PomoZ",
     "slug": "Pomodoro-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pranjaldev.PomoZ",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "11ca77f7-6ff1-4947-a762-0205649bef8f"
+      }
     }
   }
 }
